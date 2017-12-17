@@ -1,0 +1,6 @@
+BEGIN TRANSACTION;
+INSERT INTO `courses` (course_id,course_name,oth_1,oth_2,oth_3,oth_4,oth_5) 
+VALUES (1,'Python I - Core Python','Object-oriented programming with Java','Web developing using PHP',
+'Web design using HTML and CSS','Python II - creating apps for the laptop',NULL);
+
+COMMIT;

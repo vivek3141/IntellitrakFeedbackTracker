@@ -1,0 +1,8 @@
+BEGIN TRANSACTION;
+INSERT INTO `feedback` (fb_id,fb_text) VALUES (1,'Problems are helping me apply each topic to a real situation'),
+ (2,'Problems used in the course were appropriately difficult',1),
+ (3,'Speed of the course is appropriate',1),
+ (4,'I was satisfied with the level of instruction ',1),
+ (5,'I would recommend this course to students to get familiar with Python',1);
+
+COMMIT;

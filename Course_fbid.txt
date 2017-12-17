@@ -1,0 +1,15 @@
+Core Python - 16,2,3,4,5
+
+App in Python - 6,7,8,4,5
+
+OOPs in Java - 9,2,10,4,5
+
+
+Learning to code - 12,14,15,4,5
+
+
+Webdes HTML/CSS - 17,18,16,19,5
+
+
+Scratch - 17,20,16,21,5
+

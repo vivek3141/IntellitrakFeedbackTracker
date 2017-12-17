@@ -1,0 +1,6 @@
+BEGIN TRANSACTION;
+
+INSERT INTO `student` (st_id,st_full_name,st_parent_name,st_parent_phone,st_parent_email,st_phone,st_email) VALUES (1,'Nikhil Anand',NULL,NULL,NULL,NULL,NULL),
+ (2,'Vivek Verma',NULL,NULL,NULL,NULL,NULL);
+
+COMMIT;

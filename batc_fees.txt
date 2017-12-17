@@ -1,0 +1,8 @@
+select l.fees_paid , b.batch_start_date from st_batch_link l, batch b
+where l.batch_id = b.batch_id 
+and b.batch_start_date between 'Aug 02, 2016' and 'Aug 03, 2016';
+
+
+fees - f1
+comment out all print statements
+wv

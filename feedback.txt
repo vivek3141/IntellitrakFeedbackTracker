@@ -1,0 +1,55 @@
+drop table courses;
+drop table st_feedback;
+drop table student;
+drop table feedback;
+
+
+CREATE TABLE 'courses' (
+course_id integer,
+course_name varchar(20),
+oth_1 varchar(100),
+oth_2 varchar(100),
+oth_3 varchar(100),
+oth_4 varchar(100),
+oth_5 varchar(100),
+PRIMARY KEY(course_id)
+);
+
+CREATE TABLE 'st_feedback' (
+st_id integer,
+course_id varchar(10),
+fb_id1 integer,
+fb_id2 integer,
+fb_id3 integer,
+fb_id4 integer,
+fb_id5 integer,
+fb_rating1 integer,
+fb_rating2 integer,
+fb_rating3 integer,
+fb_rating4 integer,
+fb_rating5 integer,
+comments varchar(1000),
+oth_1 varchar(100),
+oth_2 varchar(100),
+oth_3 varchar(100),
+oth_4 varchar(100),
+oth_5 varchar(100),
+PRIMARY KEY(st_id,course_id)
+);
+
+CREATE TABLE 'student' (
+st_id integer,
+st_full_name varchar(1),
+st_parent_name varchar(1),
+st_parent_phone varchar(10),
+st_parent_email varchar(50),
+st_phone varchar(10),
+st_email varchar(1),
+PRIMARY KEY(st_id)
+);
+
+CREATE TABLE 'feedback' (
+fb_id integer,
+fb_text  varchar(300),
+PRIMARY KEY(fb_id)
+);
