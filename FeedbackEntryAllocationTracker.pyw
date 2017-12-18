@@ -1,4 +1,5 @@
 import sys
+sys.path.insert(0,'./files')
 from PyQt4 import QtSql, QtCore, QtGui, uic
 from main_feedback_auto import * 
 import add_feedback_mod 
@@ -13,6 +14,7 @@ import st_modify_mod
 import fee_infoentry_mod
 import st_coursebatch_entry_mod
 import st_coursebatch_modify_mod
+
 
 class MainFeedback(QtGui.QMainWindow, Ui_MainWindow):
      def __init__(self, parent=None):
